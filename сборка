@@ -1,0 +1,8 @@
+
+
+cd ~/kernels/m040
+
+make mx2_defconfig
+
+
+make -j5 ARCH=arm CROSS_COMPILE=/home/scorpio92/android-ndk-r9/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86_64/bin/arm-linux-androideabi-
