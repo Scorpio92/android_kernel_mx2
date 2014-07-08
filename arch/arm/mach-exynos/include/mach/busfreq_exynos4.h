@@ -24,6 +24,8 @@
 
 #define TIMINGROW_OFFSET	0x34
 
+#define PRIME_DMC_MAX_THRESHOLD		30
+
 struct opp;
 struct device;
 struct busfreq_table;

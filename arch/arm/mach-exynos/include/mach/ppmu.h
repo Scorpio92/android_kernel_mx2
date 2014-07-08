@@ -105,6 +105,7 @@ struct exynos4_ppmu_hw {
 	int id;
 	struct device *dev;
 	unsigned int count[NUMBER_OF_COUNTER];
+	int PPMU_END;
 };
 
 void exynos4_ppc_reset(struct exynos4_ppmu_hw *ppmu);

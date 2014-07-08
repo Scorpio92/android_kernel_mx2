@@ -9,4 +9,7 @@ obj-$(CONFIG_VIDEO_FIMG2D4X)	+= fimg2d4x/
 obj-$(CONFIG_VIDEO_ROTATOR)     += rotator/
 obj-$(CONFIG_MHL_DRIVER)         += mhl/
 
+obj-$(CONFIG_VIDEO_UMP)		+= ump/
+obj-$(CONFIG_VIDEO_MALI400MP)	+= mali/
+
 EXTRA_CFLAGS += -Idrivers/media/video

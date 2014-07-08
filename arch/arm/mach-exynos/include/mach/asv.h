@@ -27,6 +27,7 @@
 extern unsigned int exynos_result_of_asv;
 extern unsigned int exynos_special_flag;
 extern bool exynos_dynamic_ema;
+extern unsigned int exynos_armclk_max;
 
 static inline unsigned int is_special_flag(void)
 {

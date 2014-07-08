@@ -600,6 +600,10 @@ config MAX77665A_MUIC
 	help	  
 	  If you say yes here you get support for max77665a muic.
 
+config CPU_UNDERVOLTING
+	tristate "Several undervolting interfaces"
+	default y
+
 source "drivers/misc/c2port/Kconfig"
 source "drivers/misc/eeprom/Kconfig"
 source "drivers/misc/cb710/Kconfig"
